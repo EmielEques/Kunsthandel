@@ -14,17 +14,25 @@ export default function Object02Page() {
             title={objectItem.title}
             text={objectItem.subtitle}
           />
+
           <div className="grid-two">
-            <div className="placeholder-box" style={{ minHeight: 500 }} />
+            <div className="stack">
+              <div className="photo-frame photo-large">
+                <img
+                  src="/images/owl1.jpg"
+                  alt="Vintage bronze owl sculpture"
+                />
+              </div>
+            </div>
 
             <div className="stack">
               <article className="card card-pad body-copy">
-                <p className="eyebrow">Chapter 2 placeholder</p>
+                <p className="eyebrow">Object story</p>
                 <p>{objectItem.story}</p>
               </article>
 
               <article className="card card-pad specs">
-                <p className="eyebrow">Draft details</p>
+                <p className="eyebrow">Details</p>
                 <dl>
                   <dt>Status</dt>
                   <dd>{objectItem.status}</dd>
@@ -32,12 +40,18 @@ export default function Object02Page() {
                   <dt>Price</dt>
                   <dd>{objectItem.priceLabel}</dd>
 
-                  <dt>Medium</dt>
+                  <dt>Material</dt>
                   <dd>{objectItem.medium}</dd>
+
+                  <dt>Finish</dt>
+                  <dd>{objectItem.finish}</dd>
+
+                  <dt>Period</dt>
+                  <dd>{objectItem.period}</dd>
                 </dl>
 
                 <div className="button-row">
-                  <Link href="/contact" className="button">
+                  <Link href="/contact" className="button primary">
                     {objectItem.inquiry}
                   </Link>
                 </div>
