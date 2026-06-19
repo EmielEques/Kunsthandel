@@ -50,22 +50,21 @@ export const objects = [
     inquiry: 'Enquire to purchase Object 01',
     active: true,
   },
-  {
-    slug: 'object-02',
-    chapterSlug: 'chapter-2',
-    label: 'Object 02',
-    title: 'An Untitled Oil on Canvas',
-    subtitle: 'Chapter 2 — Coming Soon',
-    status: 'Coming Soon',
-    priceLabel: 'To be announced',
-    medium: 'Oil on Canvas',
-    finish: 'Details to follow',
-    period: 'To be announced',
-    summary:
-      'A future work reserved for the second chapter of the collection.',
-    story:
-      'This object page is intentionally simple for now, so you can easily replace the text as soon as the next work is ready.',
-    inquiry: 'Register interest in Object 02',
-    active: false,
-  },
-];
+ {
+  slug: 'object-02',
+  chapterSlug: 'chapter-2',
+  label: 'Object 02',
+  title: 'A Vintage Bronze Owl Sculpture',
+  subtitle: 'Chapter 2 — Nocturne Study',
+  status: 'Available — Inquire to Purchase',
+  priceLabel: 'Price on request',
+  medium: 'Bronze',
+  finish: 'Dark Patina',
+  period: 'Mid-Century',
+  summary:
+    'A compact bronze owl chosen for its quiet gravity, nocturnal symbolism, and sculptural presence.',
+  story:
+    'The owl introduces a different emotional register to the collection. Where the cat suggests curiosity and domestic watchfulness, the owl evokes stillness, knowledge, and a more nocturnal atmosphere. Its bronze surface carries the same sense of age and touch, while its posture gives the object a calm, almost architectural authority within a room.',
+  inquiry: 'Enquire to purchase Object 02',
+  active: true,
+},
